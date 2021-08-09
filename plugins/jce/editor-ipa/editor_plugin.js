@@ -263,7 +263,7 @@
 
 			// Register buttons
 			ed.addButton('ipa', {
-				title: 'ipa.desc',
+				title: 'International Phonetic Alphabet',
 				cmd: 'mceIpaCharacterMap',
 				image: url + '/img/ipa.svg'
 			});

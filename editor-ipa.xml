@@ -1,12 +1,12 @@
 <?xml version="1.0" ?>
 <extension version="3.4" type="plugin" group="jce" method="upgrade">
 	<name>PLG_JCE_EDITOR_IPA</name>
-	<version>1.0.1</version>
+	<version>1.0.2</version>
 	<creationDate>August 2021</creationDate>
 	<author>Ryan Demmer</author>
 	<authorEmail>info@joomlacontenteditor.net</authorEmail>
 	<authorUrl>https://www.joomlacontenteditor.net/</authorUrl>
-	<copyright>Copyright (C) 2021 Ryan Demmer. All rights reserved</copyright>
+	<copyright>Copyright (C) 2021 - 2023 Ryan Demmer. All rights reserved</copyright>
 	<license>GNU/GPL Version 2 - http://www.gnu.org/licenses/gpl-2.0.html</license>
 	<description>PLG_JCE_EDITOR_IPA_XML_DESC</description>
 	<icon image="plugins/jce/editor-ipa/img/ipa.svg">ipa</icon>
@@ -20,4 +20,9 @@
 	</fields>
 	<languages></languages>
 	<help></help>
+	<updateservers>
+		<server type="extension" priority="1" name="JCE Editor IPA">
+			<![CDATA[https://cdn.joomlacontenteditor.net/updates/xml/plugins/plg_jce_editor_ipa.xml]]>
+		</server>
+	</updateservers>
 </extension>
